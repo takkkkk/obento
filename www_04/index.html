@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="jp">
+  <head>
+    <meta charset="utf-8">
+    <title>slider</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./slick/slick-theme.css">
+    <link rel="stylesheet" href="./slick/slick.css">
+    <script src="./slick/slick.min.js"></script>
+    <script src="./js/sample.js"></script>
+  </head>
+  <body>
+    <div class="content">
+      <header class="header">
+        <a href="#"><img src="https://placehold.jp/3d4070/ffffff/980x400.png?text=header"></a>
+      </header>
+      <!-- <div id="floating_menu">
+        <div class="wrapper">
+          <a href="#obento_section"><span>お弁当</span></a>
+          <a class="menu2" href="#contact_section"><span>ご連絡</span></a>
+          <a href="#event_section"><span>イベント</span></a>
+        </div>
+      </div> -->
+      <section class="recommended_items" id="obento_section">
+        <h2 class="category_title">スポーツマンにおすすめです。</h2>
+        <div class="wraper">
+          <ul class="slider">
+            <li class="recommended_item">
+              <p class="category_title">dummydummydummydummy<br>dummydummydummydummy</p>
+              <img class="obento_image" src="https://placehold.jp/3d4070/ffffff/250x200.png?text=%E3%81%8A%E5%BC%81%E5%BD%93%E7%94%BB%E5%83%8F%0A" alt="">
+              <p class="obento_catchcopy">野菜たっぷり♪<br>幕内弁当</p>
+            </li>
+            <li class="recommended_item">
+              <p class="category_title">dummydummydummydummy<br>dummydummydummydummy</p>
+              <img class="obento_image" src="https://placehold.jp/3d4070/ffffff/250x200.png?text=%E3%81%8A%E5%BC%81%E5%BD%93%E7%94%BB%E5%83%8F%0A" alt="">
+              <p class="obento_catchcopy">野菜たっぷり♪<br>幕内弁当</p>
+            </li>
+            <li class="recommended_item">
+              <p class="category_title">dummydummydummydummy<br>dummydummydummydummy</p>
+              <img class="obento_image" src="https://placehold.jp/3d4070/ffffff/250x200.png?text=%E3%81%8A%E5%BC%81%E5%BD%93%E7%94%BB%E5%83%8F%0A" alt="">
+              <p class="obento_catchcopy">野菜たっぷり♪<br>幕内弁当</p>
+            </li>
+            <li class="recommended_item">
+              <p class="category_title">dummydummydummydummy<br>dummydummydummydummy</p>
+              <img class="obento_image" src="https://placehold.jp/3d4070/ffffff/250x200.png?text=%E3%81%8A%E5%BC%81%E5%BD%93%E7%94%BB%E5%83%8F%0A" alt="">
+              <p class="obento_catchcopy">野菜たっぷり♪<br>幕内弁当</p>
+            </li>
+            <li class="recommended_item">
+              <p class="category_title">dummydummydummydummy<br>dummydummydummydummy</p>
+              <img class="obento_image" src="https://placehold.jp/3d4070/ffffff/250x200.png?text=%E3%81%8A%E5%BC%81%E5%BD%93%E7%94%BB%E5%83%8F%0A" alt="">
+              <p class="obento_catchcopy">野菜たっぷり♪<br>幕内弁当</p>
+            </li>
+            <li class="recommended_item">
+              <p class="category_title">dummydummydummydummy<br>dummydummydummydummy</p>
+              <img class="obento_image" src="https://placehold.jp/3d4070/ffffff/250x200.png?text=%E3%81%8A%E5%BC%81%E5%BD%93%E7%94%BB%E5%83%8F%0A" alt="">
+              <p class="obento_catchcopy">野菜たっぷり♪<br>幕内弁当</p>
+            </li>
+            <li class="recommended_item">
+              <p class="category_title">dummydummydummydummy<br>dummydummydummydummy</p>
+              <img class="obento_image" src="https://placehold.jp/3d4070/ffffff/250x200.png?text=%E3%81%8A%E5%BC%81%E5%BD%93%E7%94%BB%E5%83%8F%0A" alt="">
+              <p class="obento_catchcopy">野菜たっぷり♪<br>幕内弁当</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="recommended_items">
+        <h2 class="category_title">スポーツマンにおすすめです。</h2>
+        <div class="wraper">
+          <ul class="slider">
+            <li class="recommended_item">
+              <p class="category_title">dummydummydummydummy<br>dummydummydummydummy</p>
+              <img class="obento_image" src="https://placehold.jp/3d4070/ffffff/250x200.png?text=%E3%81%8A%E5%BC%81%E5%BD%93%E7%94%BB%E5%83%8F%0A" alt="">
+              <p class="obento_catchcopy">野菜たっぷり♪<br>幕内弁当</p>
+            </li>
+            <li class="recommended_item">
+              <p class="category_title">dummydummydummydummy<br>dummydummydummydummy</p>
+              <img class="obento_image" src="https://placehold.jp/3d4070/ffffff/250x200.png?text=%E3%81%8A%E5%BC%81%E5%BD%93%E7%94%BB%E5%83%8F%0A" alt="">
+              <p class="obento_catchcopy">野菜たっぷり♪<br>幕内弁当</p>
+            </li>
+            <li class="recommended_item">
+              <p class="category_title">dummydummydummydummy<br>dummydummydummydummy</p>
+              <img class="obento_image" src="https://placehold.jp/3d4070/ffffff/250x200.png?text=%E3%81%8A%E5%BC%81%E5%BD%93%E7%94%BB%E5%83%8F%0A" alt="">
+              <p class="obento_catchcopy">野菜たっぷり♪<br>幕内弁当</p>
+            </li>
+            <li class="recommended_item">
+              <p class="category_title">dummydummydummydummy<br>dummydummydummydummy</p>
+              <img class="obento_image" src="https://placehold.jp/3d4070/ffffff/250x200.png?text=%E3%81%8A%E5%BC%81%E5%BD%93%E7%94%BB%E5%83%8F%0A" alt="">
+              <p class="obento_catchcopy">野菜たっぷり♪<br>幕内弁当</p>
+            </li>
+            <li class="recommended_item">
+              <p class="category_title">dummydummydummydummy<br>dummydummydummydummy</p>
+              <img class="obento_image" src="https://placehold.jp/3d4070/ffffff/250x200.png?text=%E3%81%8A%E5%BC%81%E5%BD%93%E7%94%BB%E5%83%8F%0A" alt="">
+              <p class="obento_catchcopy">野菜たっぷり♪<br>幕内弁当</p>
+            </li>
+            <li class="recommended_item">
+              <p class="category_title">dummydummydummydummy<br>dummydummydummydummy</p>
+              <img class="obento_image" src="https://placehold.jp/3d4070/ffffff/250x200.png?text=%E3%81%8A%E5%BC%81%E5%BD%93%E7%94%BB%E5%83%8F%0A" alt="">
+              <p class="obento_catchcopy">野菜たっぷり♪<br>幕内弁当</p>
+            </li>
+            <li class="recommended_item">
+              <p class="category_title">dummydummydummydummy<br>dummydummydummydummy</p>
+              <img class="obento_image" src="https://placehold.jp/3d4070/ffffff/250x200.png?text=%E3%81%8A%E5%BC%81%E5%BD%93%E7%94%BB%E5%83%8F%0A" alt="">
+              <p class="obento_catchcopy">野菜たっぷり♪<br>幕内弁当</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="recommended_items">
+        <h2 class="category_title">スポーツマンにおすすめです。</h2>
+        <div class="wraper">
+          <ul class="slider">
+            <li class="recommended_item">
+              <p class="category_title">dummydummydummydummy<br>dummydummydummydummy</p>
+              <img class="obento_image" src="https://placehold.jp/3d4070/ffffff/250x200.png?text=%E3%81%8A%E5%BC%81%E5%BD%93%E7%94%BB%E5%83%8F%0A" alt="">
+              <p class="obento_catchcopy">野菜たっぷり♪<br>幕内弁当</p>
+            </li>
+            <li class="recommended_item">
+              <p class="category_title">dummydummydummydummy<br>dummydummydummydummy</p>
+              <img class="obento_image" src="https://placehold.jp/3d4070/ffffff/250x200.png?text=%E3%81%8A%E5%BC%81%E5%BD%93%E7%94%BB%E5%83%8F%0A" alt="">
+              <p class="obento_catchcopy">野菜たっぷり♪<br>幕内弁当</p>
+            </li>
+            <li class="recommended_item">
+              <p class="category_title">dummydummydummydummy<br>dummydummydummydummy</p>
+              <img class="obento_image" src="https://placehold.jp/3d4070/ffffff/250x200.png?text=%E3%81%8A%E5%BC%81%E5%BD%93%E7%94%BB%E5%83%8F%0A" alt="">
+              <p class="obento_catchcopy">野菜たっぷり♪<br>幕内弁当</p>
+            </li>
+            <li class="recommended_item">
+              <p class="category_title">dummydummydummydummy<br>dummydummydummydummy</p>
+              <img class="obento_image" src="https://placehold.jp/3d4070/ffffff/250x200.png?text=%E3%81%8A%E5%BC%81%E5%BD%93%E7%94%BB%E5%83%8F%0A" alt="">
+              <p class="obento_catchcopy">野菜たっぷり♪<br>幕内弁当</p>
+            </li>
+            <li class="recommended_item">
+              <p class="category_title">dummydummydummydummy<br>dummydummydummydummy</p>
+              <img class="obento_image" src="https://placehold.jp/3d4070/ffffff/250x200.png?text=%E3%81%8A%E5%BC%81%E5%BD%93%E7%94%BB%E5%83%8F%0A" alt="">
+              <p class="obento_catchcopy">野菜たっぷり♪<br>幕内弁当</p>
+            </li>
+            <li class="recommended_item">
+              <p class="category_title">dummydummydummydummy<br>dummydummydummydummy</p>
+              <img class="obento_image" src="https://placehold.jp/3d4070/ffffff/250x200.png?text=%E3%81%8A%E5%BC%81%E5%BD%93%E7%94%BB%E5%83%8F%0A" alt="">
+              <p class="obento_catchcopy">野菜たっぷり♪<br>幕内弁当</p>
+            </li>
+            <li class="recommended_item">
+              <p class="category_title">dummydummydummydummy<br>dummydummydummydummy</p>
+              <img class="obento_image" src="https://placehold.jp/3d4070/ffffff/250x200.png?text=%E3%81%8A%E5%BC%81%E5%BD%93%E7%94%BB%E5%83%8F%0A" alt="">
+              <p class="obento_catchcopy">野菜たっぷり♪<br>幕内弁当</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <div class="access_wrapper" id="contact_section">
+        <span>ご連絡はこちら</span>
+      </div>
+      <div class="event_wrapper" id="event_section">
+        <span>下記イベントに参加中！！</span>
+      </div>
+      <!-- InstaWidget -->
+      <a href="https://instawidget.net/v/user/jkt48" id="link-c3baf221e379dac25493fd1bf809219afa7e0bcd99c6f948da99a0f6b15c1c10">@jkt48</a>
+      <script src="https://instawidget.net/js/instawidget.js?u=c3baf221e379dac25493fd1bf809219afa7e0bcd99c6f948da99a0f6b15c1c10&width=300px"></script>
+    </div>
+
+  </body>
+</html>
